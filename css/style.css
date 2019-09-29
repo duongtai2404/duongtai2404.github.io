@@ -8727,6 +8727,20 @@ textarea.form-control {
       color: #000000;
       font-style: italic; }
 
+.body_design{
+  text-align: center;}
+  .body_design h3 {
+    font-family: "Montserrat", Arial, sans-serif;
+    margin: 10px 0px;
+    font-weight: 500; }
+  .body_design img{
+    width: 690px; 
+    height: 350px;}
+  .body_design button{
+   margin-top: 20px}
+
+
+
 #ftco-loader {
   position: fixed;
   width: 96px;
@@ -8785,6 +8799,8 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
+
+
 
 @-webkit-keyframes loader-rotate {
   100% {
