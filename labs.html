@@ -37,15 +37,13 @@
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="collection.html">Collection</a></li>
+					<!-- <li><a href="collection.html">Collection</a></li> -->
 					<li><a href="about.html">About Me</a></li>
-					<li class="colorlib-active"><a href="services.html">Labs</a></li>
-					<li><a href="blog.html">Blog</a></li>
+					<li class="colorlib-active"><a href="labs.html">Labs</a></li>
+					<!-- <li><a href="blog.html">Blog</a></li> -->
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
-
-
 			<!-- footer send email -->
 <!-- 			<div class="colorlib-footer">
 				<h3>Newsletter</h3>
@@ -64,7 +62,6 @@
 				<div class="container">
 					<div class="row no-gutters slider-text justify-content-center align-items-center">
 	          			<div class="col-md-12 ftco-animate">
-<!-- 	            			<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span><span>Services</span></p> -->
 	            			<h1 class="bread">My Exercises</h1>
 	            			<ul class="nav nav-tabs">
 	            				<li class="nav-item">
@@ -112,7 +109,10 @@
 			</ul>
 			<br>
 			<br>
+
 			<div class="tab-content">
+
+			<!-- Start requirement -->
 				<div role="tabpanel" class="tab-pane active" id="requirement">
 					<table class="table table-bordered">
 						<thead>
@@ -146,8 +146,13 @@
 						</tbody>
 					</table>
 				</div>
+			<!-- End Requirement -->
+
+			<!-- Start Design -->
 				<div role="tabpanel" class="tab-pane" id="design">
 					<div id="accordion">
+
+						<!-- Start OnPage -->
 						<div class="card">
 							<div class="card-header">
 								<a class="card-link scroll-link" data-toggle="collapse" href="#collapse0">
@@ -179,6 +184,9 @@
 								</div>
 							</div>
 						</div>
+						<!-- End OnPage -->
+
+						<!-- Start Figma -->
 						<div class="card">
 							<div class="card-header">
 								<a class="collapsed card-link" data-toggle="collapse" href="#collapse2">Thiết kế trên Figma</a>
@@ -200,6 +208,18 @@
 											<button type="button" class="btn btn-info">
 												<i class="fa fa-cloud-download"></i> Tải về
 											</button>
+			<!-- footer send email -->
+<!-- 			<div class="colorlib-footer">
+				<h3>Newsletter</h3>
+				<div class="d-flex justify-content-center">
+					<form action="#" class="colorlib-subscribe-form">
+			            <div class="form-group d-flex">
+			            	<div class="icon"><span class="icon-paper-plane"></span></div>
+			             	<input type="text" class="form-control" placeholder="Enter Email Address">
+			            </div>
+         			</form>
+				</div>
+			</div> -->
 										</a>
 										<hr>
 										<h3> Chức năng sửa sản phẩm</h3>
@@ -229,6 +249,9 @@
 								</div>
 							</div>
 						</div>
+						<!-- End Figma -->
+
+						<!-- Start AllFile -->
 						<div class="card">
 							<div class="card-header">
 								<a class="collapsed card-link" data-toggle="collapse" href="#collapse5">File thiết kế</a>
@@ -243,10 +266,15 @@
 								</div>
 							</div>
 						</div>
+						<!-- End AllFile -->
 					</div>
 				</div>
+
+				<!-- Start Implementation -->
 				<div role="tabpanel" class="tab-pane" id="implementation">
 					<div class="container">
+
+						<!-- Thiet ke ban dau -->
 						<h2 class="text-center">Danh Sách Sản Phẩm</h2>
 						<nav class="navbar navbar-light bg-light">
 							<span></span>
@@ -427,8 +455,11 @@
 						    </li>
 						  </ul>
 						</nav>
+						<!-- End Thiet ke ban dau -->
 
 						<hr>
+
+						<!-- Start Chuc nang them san pham -->
 						<h2 class="text-center"> Chức năng thêm sản phẩm</h2>
 						<form class="form-horizontal">
 							<div class="row">
@@ -467,14 +498,16 @@
 								</div>
 							</div>
 							<div class="row justify-content-center" style="margin-top: 10px">
-								<button type="submit" class="btn btn-outline-info">Add</button>
-								<span class="col-lg-1"></span>
-								<button type="submit" class="btn btn-outline-info">Cancle</button>
+								<button type="submit" class="btn btn-outline-info mr-3">Add</button>
+								<button type="submit" class="btn btn-outline-info ml-3">Cancle</button>
 							</div>
 						</form>
+						<!-- End Chuc nang them san pham -->
 
 
 						<hr>
+
+						<!-- Start Chuc nang sua san pham -->
 						<h2 class="text-center"> Chức năng sửa sản phẩm</h2>
 						<form class="form-horizontal">
 							<div class="row">
@@ -513,13 +546,15 @@
 								</div>
 							</div>
 							<div class="row justify-content-center" style="margin-top: 10px">
-								<button type="submit" class="btn btn-outline-info">Save</button>
-								<span class="col-lg-1"></span>
-								<button type="submit" class="btn btn-outline-info">Cancle</button>
+								<button type="submit" class="btn btn-outline-info mr-3">Save</button>
+								<button type="submit" class="btn btn-outline-info ml-3">Cancle</button>
 							</div>
 						</form>
+						<!-- Ket thuc chuc nang xoa san pham -->
 
 						<hr>
+
+						<!-- Start Chuc nang xoa san pham -->
 						<h2 class="text-center"> Chức năng xóa sản phẩm</h2>
 						<div class="row justify-content-center">
 							<div class="col-lg-5 justify-content-center bg-light">
@@ -527,96 +562,19 @@
 							</div>
 						</div>
 						<div class="row justify-content-center" style="margin-top: 10px">
-							<button type="submit" class="btn btn-outline-info">Save</button>
-							<span class="col-lg-1"></span>
-							<button type="submit" class="btn btn-outline-info">Cancle</button>
+							<button type="submit" class="btn btn-outline-info mr-3">Save</button>
+							<button type="submit" class="btn btn-outline-info ml-3">Cancle</button>
 						</div>
+						<!-- End chuc nang xoa san pham -->
 
 
 					</div>
 				</div>
 			</div>
-	        <!-- <div class="row">
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-big-lens"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-	                <h3 class="heading mb-3">Pounds Of Equipment</h3>
-	                <p>A small river named Duden flows by their place and supplies.</p>
-	              </div>
-	            </div>      
-	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-printing-photo"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-	                <h3 class="heading mb-3">Photo Print</h3>
-	                <p>A small river named Duden flows by their place and supplies.</p>
-	              </div>
-	            </div>      
-	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-focusing-target"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-	                <h3 class="heading mb-3">Client Focus</h3>
-	                <p>A small river named Duden flows by their place and supplies.</p>
-	              </div>
-	            </div>      
-	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-camera"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-	                <h3 class="heading mb-3">Studio Sessions</h3>
-	                <p>A small river named Duden flows by their place and supplies.</p>
-	              </div>
-	            </div>    
-	          </div>
-	          <div class="col-md-4 d-flex align-sel Searchf-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-polaroid-pictures"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-	                <h3 class="heading mb-3">Polaroid Pictures</h3>
-	                <p>A small river named Duden flows by their place and supplies.</p>
-	              </div>
-	            </div>      
-	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-film"></span>
-              	</div>
-              </div>
-              <div class="media-body p-2 mt-2">
-                <h3 class="heading mb-3">Old Fill Roll</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
-              </div>
-            </div>
-          </div> -->
         </div>
 	    </section>
+
+	    <!-- Start footer -->
 		<footer class="ftco-footer ftco-bg-dark ftco-section">
 			      <div class="container px-md-5">
 			        <div class="row mb-5">
@@ -633,18 +591,6 @@
 				              </ul>
 				            </div>
 				         </div>
-<!-- 	          <div class="col-md">
-	             <div class="ftco-footer-widget mb-4">
-	              <h2 class="ftco-heading-2">Archives</h2>
-	              <ul class="list-unstyled categories">
-	              	<li><a href="#">November 2018 <span>(105)</span></a></li>
-	              	<li><a href="#">October 2018 <span>(212)</span></a></li>
-	                <li><a href="#">September 2018 <span>(150)</span></a></li>
-	                <li><a href="#">August 2018 <span>(100)</span></a></li>
-	                <li><a href="#">July 2018 <span>(200)</span></a></li>
-	              </ul>
-	            </div>
-	          </div> -->
 		        <div class="col-md">
 		            <div class="ftco-footer-widget mb-4">
 		            	<h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -668,6 +614,8 @@
 	        </div>
 	      </div>
 	    </footer>
+	    <!-- End footer -->
+
 		</div><!-- END COLORLIB-MAIN -->
 	</div><!-- END COLORLIB-PAGE -->
 
