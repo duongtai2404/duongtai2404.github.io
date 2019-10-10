@@ -8363,6 +8363,20 @@ textarea.form-control {
         transition: all 0.3s;
         color : blue; }
 
+.header-of-userscenario{
+  background-color: #9c8b8b1c;
+  font-size: 15px;
+  padding: 15px;}
+  .header-of-userscenario h6{
+    color: red;
+    font-weight: 600;
+  }
+
+.body-of-userscenario td{
+  font-size: 13px;}
+.body-of-userscenario input{
+  font-size: 13px;}
+
 #map {
   width: 100%; }
   @media (max-width: 991.98px) {
