@@ -94,6 +94,10 @@ address {
   font-style: normal;
   line-height: inherit; }
 
+html{
+  scroll-behavior: smooth;
+}
+
 ol,
 ul,
 dl {
